@@ -17,7 +17,7 @@ export default function Home() {
     }
   }, []);
 
-  const handleSaveClick = () => {
+  const handleSaveClick = (): void => {
     localStorage.setItem('myData', data);
   };
   return (
